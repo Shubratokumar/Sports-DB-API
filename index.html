@@ -16,12 +16,22 @@
             <div class="col">
                 <h2>Left side</h2>
                 <div class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input id="search-box" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button onclick="allPlayers()" class="btn btn-outline-success" type="submit">Search</button>
+                  </div>
+                  <div id="player-container" class="player-container">
+
                   </div>
             </div>
             <div class="col">
                 <h2>Right side</h2>
+                <div id="details-container" class="details-container">
+                    <div>
+                        <img id="male" src="" alt="">
+                        <img id="female" src="" alt="">
+                    </div>    
+
+                </div>
             </div>
         </div>
 
